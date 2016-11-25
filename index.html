@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>St.Kudryashov portfolio</title>
-	<link rel="stylesheet" href="app/css/main.css">
+	<link rel="stylesheet" href="app/css/style.css">
 </head>
 <body>
 	<h1 align="center">Мой сайт портфолио</h1>
@@ -55,6 +55,28 @@
 				<td>20</td>
 			</tr>
 		</table>
+	</div>
+	<div>
+		<h2 class="section-title">Заказать у меня сайт</h2>
+		<form action="order.php" method="post">
+			<div>
+				<label for="client_name">Ваше имя: </label>
+				<input type="text" id="client_name" name="client_name" placeholder="Введите имя">
+			</div>
+			<div>
+				<label>
+				<span>Введите почту</span>
+				<input type="text" name="client_email" placeholder="Введите email">
+				</label>
+			</div>
+			<div>
+				<label>
+					<span>Выберите пол</span>
+					<input type="radio" name="gendre" value="male">М
+					<input type="radio" name="gendre" value="female">Ж
+				</label>
+			</div>
+		</form>
 	</div>
 
 
