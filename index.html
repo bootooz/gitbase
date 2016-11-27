@@ -76,6 +76,45 @@
 					<input type="radio" name="gendre" value="female">Ж
 				</label>
 			</div>
+			<div>
+				<label>
+					<span>Дополнительные возможности</span>
+					<input type="checkbox" name="extra" value="adaptive">
+					Адаптивность
+					<input type="checkbox" name="extra" value="hosting" checked="">
+					Установка на хостинг
+					<input type="checkbox" name="extra" value="support">
+					Дальнейшая поддержка
+					<input type="checkbox" name="extra" value="admin">
+					Установка админ-панели
+				</label>
+			</div>
+			<div>
+				<label>
+					<span>Тип сайта</span>
+					<select name="type" multiple="">
+						<option value="eshop">Интернет-магазин</option>
+						<option value="landing">Лендинг</option>
+						<option value="card">Сайт-визитка</option>
+					</select>
+				</label>
+			</div>
+			<div>
+				<label>
+					<span>Приложите эскиз</span>
+					<input type="file" name="file">
+				</label>
+			</div>
+			<div>
+				<label>
+					<span>Ваш комментарий</span>
+					<textarea name="comment" cols="30" rows="10" maxlength="100"></textarea>
+				</label>
+			</div>
+			<div>
+				<input type="reset" value="Сбросить всё">
+				<button name="submit">Отправить</button>
+			</div>
 		</form>
 	</div>
 
